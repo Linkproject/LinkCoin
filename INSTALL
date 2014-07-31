@@ -1,0 +1,9 @@
+Building Linkcoin
+
+See doc/readme-qt.rst for instructions on building Linkcoin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Linkcoin.
+
+See doc/build-*.txt for instructions on building linkcoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of Linkcoin.
