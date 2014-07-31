@@ -1087,8 +1087,8 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
     int64 nSubsidy = 80 * COIN;
     if (nHeight == 10) nSubsidy = 500000 * COIN;
 
-    // IPO COINS. Subsidy is cut in half every 100000 blocks, which will occur approximately every  years
-    nSubsidy >>= (nHeight / 100000); // Linkcoin: 100k blocks in ~1 year
+    // IPO COINS. Subsidy is cut in half every 400000 blocks, which will occur approximately every  years
+    nSubsidy >>= (nHeight / 400000); // Linkcoin: 400k blocks in ~4 years
 
     return nSubsidy + nFees;
 }
